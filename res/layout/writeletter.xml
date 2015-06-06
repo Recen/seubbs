@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:background="@drawable/dis_titlebar"
+		>
+        
+        <TextView 
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="写信"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/recipients" 
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:hint="收件人"
+        android:background="@drawable/white1"/>
+    
+    <EditText
+        android:id="@+id/title" 
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:hint="标题"
+        android:background="@drawable/white1"/>
+    
+    <EditText
+        android:id="@+id/contents" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="内容"
+        android:background="@drawable/white1"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+      <Button 
+          android:id="@+id/sendLetter" 
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="发送"/>
+      <Button 
+          android:id="@+id/cancleLetter" 
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="取消"/>
+    </LinearLayout>
+
+</LinearLayout>

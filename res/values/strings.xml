@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="app_name">sbbs</string>
+    
+    <string name="loading">正在加载...</string>
+     <!-- 分区相关 -->
+    <string name="section_0">(0)本站系统</string>
+    <string name="section_1">(1)东南大学</string>
+    <string name="section_2">(2)电脑技术</string>
+    <string name="section_3">(3)学术科学</string>
+    <string name="section_4">(4)艺术文化</string>
+    <string name="section_5">(5)乡情校谊</string>
+    <string name="section_6">(6)休闲娱乐</string>
+    <string name="section_7">(7)知性感性</string>
+    <string name="section_8">(8)人文信息</string>
+    <string name="section_9">(9)体坛风暴</string>
+    <string name="section_a">(A)校务信箱</string>
+    <string name="section_b">(B)社团群体</string>
+    
+     <!-- 下拉刷新 -->
+    <string name="pull_to_refresh_tap_label">下拉刷新</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新</string>
+    <string name="pull_to_refresh_release_label">释放刷新</string>
+    <string name="pull_to_refresh_update_time">最近更新</string>
+    
+    <!-- 用户相关 -->
+    <string name="user_profile">个人资料</string>
+    <string name="profile_mail">寄信</string>
+    <string name="profile_add">加为好友</string>
+    <string name="del_friends_success">删除成功</string>
+    <string name="del_friends_failed">删除失败</string>
+    <string name="profile_send_mail">寄信</string>
+    <string name="profile_alive_number">生命力</string>
+    <string name="profile_login_count">登录次数</string>
+    <string name="profile_post_count">发表文章</string>
+    <string name="profile_user_experience">经验值</string>
+    <string name="profile_user_perform_title">表现值</string>
+    <string name="profile_identity">身份</string>
+    <string name="profile_gender">性别</string>
+    <string name="profile_astrology">星座</string>
+    <string name="profile_last_login">上次登录时间：</string>
+    <string name="profile_add_friends_failed">添加失败</string>
+    <string name="profile_add_friends_success">添加成功</string>
+    <string name="profile_view_title">的个人资料</string>
+    <string name="profile_user_sex_m">帅哥</string>
+    <string name="profile_user_sex_f">美女</string>
+    <string name="profile_user_sex_unknown">未知</string>
+    <string name="profile_user_share">分享虎踞龙蟠好友</string>
+    <string name="profile_user_add">添加好友</string>
+    <string name="profile_user_mail">寄信</string>
+    
+    <!-- 登录框 -->
+    <string name="userID">用户名</string>
+    <string name="userpwd">用户密码</string>
+    <string name="userLogin">  登录  </string>
+    <string name="guestLogin">匿名</string>
+    <string name="welcomeMSG"><a href="http://bbs.seu.edu.cn">欢迎来到东南大学虎踞龙蟠BBS站</a></string>
+    <string name="login_message">正在登录……</string>
+    <string name="login_success">登录成功</string>
+	
+    <!-- 注销 -->
+    <string name="user_logout">注销</string>
+    <string name="user_logout_confirm">确定注销？</string>
+    <string name="user_logout_positive">确定</string>
+    <string name="user_logout_negative">点错了！</string>
+    <string name="user_logout_indicate">正在注销……</string>
+
+</resources>

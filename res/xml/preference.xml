@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <PreferenceCategory
+        android:key="newMessage_notificaction"
+        android:title="新消息提醒" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="receiveMessage"
+            android:title="接收新消息提醒" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="notification_sound"
+            android:title="声音" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="notification_vibration"
+            android:title="振动" />
+        </PreferenceCategory>
+    
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="about"
+            android:title="关于" />
+</PreferenceScreen>
+    

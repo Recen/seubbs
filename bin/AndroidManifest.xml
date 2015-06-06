@@ -1,0 +1,39 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.recen.sbbs"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+	<uses-permission android:name="android.permission.INTERNET" ></uses-permission>
+    <application
+        android:name="utli.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+       
+        <activity android:name="activity.MainTabActivity"
+                  android:label="@string/app_name"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="activity.recommendPage"></activity>
+        <activity android:name="activity.discussion"></activity>
+        <activity android:name="activity.personalCenter"></activity>
+        <activity android:name="activity.hotspot_fragment"></activity>
+        <activity android:name="activity.BoardSubSection"></activity>
+        <activity android:name="activity.TopicList"></activity>
+        <activity android:name="activity.dialogActivity"></activity>
+        <activity android:name="activity.Login"></activity>
+        <activity android:name="activity.ViewProfileActivity"></activity>
+        <activity android:name="activity.person_myEmail"></activity>
+        <activity android:name="activity.person_writeLetter"></activity>
+        <activity android:name="activity.preference"></activity>
+    </application>
+
+</manifest>
